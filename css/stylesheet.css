@@ -1,0 +1,273 @@
+
+
+
+
+/*fondo textura*/
+body{
+  background-image: url(https://www.transparenttextures.com/patterns/concrete-wall-2.png);
+}
+
+/* estilos de texto */
+
+@font-face
+{
+font-family: Jaapokki;
+src: url('jaapokki-regular.woff');
+
+}
+
+body {
+  background-image:"img/hoja.jpg" ;
+}
+
+
+h6 {
+    
+    color:#f2cd18;
+ font-family: 'Nixie One', cursive;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 5%;
+    
+
+}
+
+h2 {
+    text-align:right;
+    color:black;
+   font-family: 'Nixie One', cursive;
+    margin: 2%;
+    font-size: 1em;
+
+}
+
+h4 {
+   font-family: 'Nixie One', cursive;
+   font-size: 1.5em;
+   margin-left: 5%;
+   margin-top: -25%;
+   text-align: left;
+   width: 52%;
+   background-color: #f2cd18;
+}
+  
+
+
+
+h3 {
+    font-family: 'Avenir',sans-serif;
+   font-size: 1.5em;
+
+   
+   background-color: #f2cd18;
+
+}
+
+h5 {
+    font-family: 'Nixie One', cursive;
+  text-align: center;
+}
+
+a :hover {
+ text-decoration:underline;
+ color: #f2cd18;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.5em;
+    font-family: 'Avenir', sans-serif;
+}
+
+body{
+  background-color: ;
+}
+
+img {
+  width: 25%;
+  margin-left: 3%;
+}
+/* contenedor general*/
+
+.wrap {
+    width: 100%;
+    height:100em;
+    margin-top: -1%;
+  
+    
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  .wrap{
+    max-width: 70%;
+  
+  }
+}
+
+.logo {
+  position: absolute;
+  width: 12%;
+  margin-top: -4.5%;
+ 
+}
+
+
+.imga {
+  border: 1px solid red;
+  width: 30em;
+  height: 30em;
+  margin-left: 60%;
+  margin-top: -18%;
+}
+
+
+.boton1 img{
+  
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 2.5%;
+
+}
+
+
+/*"Quiénes somos" contenedor*/
+.i1 {
+
+  float: right;
+  margin-right: 16%;
+  width: 40%;
+  height: 20em;
+
+  display: inline-block;
+  margin-top: 5%;
+   margin-bottom: 8%;
+
+}
+
+/*imagen de Sam */
+.i2 {
+
+  float: left;
+  margin-left: 3.5%;
+  width: 40%;
+  height: 20em;
+
+  display: inline-block;
+  margin-top: 5%;
+  margin-bottom: 8%;
+
+}
+
+
+
+/*como funciona?*/
+.i3 {
+
+  
+  
+  width: 93%;
+  margin-left: 3.5%;
+  height: 70em;
+
+  display: inline-block;
+  margin-top: 5%;
+  margin-bottom: 20%;
+
+}
+
+
+
+
+/*"Se el primero de entererte!*/
+
+.final {
+  margin-left: 25.5%;
+  margin-top: -35%;
+}
+
+
+
+.btn-primary {
+  background-color: #D6D6D4;
+  border: 1px #D6D6D4;
+
+}
+
+
+.btn-primary:hover {
+  background-color: #f2cd18;
+  border: 1px #f2cd18;
+}
+
+.btn-primary:visited{
+  background-color: #f2cd18;
+  border: 1px #f2cd18;
+}
+
+.btn-primary:active{
+  background-color: #f2cd18
+  border: 1px #f2cd18;
+}
+
+
+.logo {
+  margin-left: -3%;
+}
+
+.form-control-sm {
+  margin-left: 50%;
+  display: inline;
+}
+
+/*slideshow*/
+
+.headerslide  {
+    width: 980px;
+    height: 450px;
+   
+    : none;
+    margin: 0 auto;
+  
+    overflow: hidden;
+
+}
+
+
+ .headerslide  ul {
+display: flex;
+width: 500%;
+overflow: hidden;
+animation:15s img ;
+}
+
+@keyframes img {
+    0%{margin-left: :0%;}
+    15%{margin-left: 0%;}
+    
+    15%{margin-left: -105%;}
+    20%{margin-left: -105%;}
+    
+    30%{margin-left: -208%;}
+    45%{margin-left: -208%;}
+
+    45%{margin-left: -309%;}
+    55%{margin-left: -309%;}
+
+    55%{margin-left: -413%;}
+    70%{margin-left: -413%;}
+}
+}
+
+
+ .headerslide li {
+width: 100%;
+ }
+
+ .headerslide img{
+    width: 1000px;
+ }
+
+
+
